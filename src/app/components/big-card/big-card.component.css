@@ -1,6 +1,6 @@
 .big-card{
 
-    width: 500px;
+    width: 400px;
     height: 600px;
     margin-left: 20px;
     margin-right: 20px;
@@ -16,13 +16,21 @@
     font-size: 20px;
     margin-top: 15px;
 }
+
+.big-card__title > h1:hover > a {
+    color:aqua;
+}
+
 .big-card__description {
     margin-top: 15px;
 }
+
 .big-card__description > a > p {
     color: gray;
 }
+
 .big-card__photo > img {
     width: 100%;
+    height: 200px;
     min-width: 400px;
 }
