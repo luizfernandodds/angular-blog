@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide-card{
+
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent > img {
+    width: 900px;
+}
+
+.slideCard-description {
+
+    margin-top: -90px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    background: rgb(3,3,3);
+    opacity: 0.8;
+    position: absolute;
+
+}
+
+.slideCard-description > h1 {
+    color: aqua;
+}
+
+.slideCard-description > p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
